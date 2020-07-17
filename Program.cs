@@ -11,7 +11,7 @@ namespace PaaSDevL200Redis1
         static void Main(string[] args)
         {
             string connectionString = ConfigurationManager.ConnectionStrings["RedisConnectionString"].ConnectionString;
-            int requestCount = 300;
+            int requestCount = 600;
             int valueSize = 1000;
             var rand = new Random();
 
